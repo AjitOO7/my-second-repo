@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    background-color: #003399;
+    width: 100%;
+    border-bottom: 1px solid #0befff;
+}
+.logo{
+    margin: 0;
+    display: flex;
+    width: 70%;
+    
+}
+.img{
+    width: 82px;
+    height: 75px;
+    padding: 10px;
+}
+.collegName h2{
+    color: #ffff;
+    margin: 10px;
+    font-size: 30px;
+}
+.collegName h3{
+    color: #ffc107;
+    margin: 10px;
+}
+.contact{
+    margin: 10px;
+    color: #ffff;
+    float: right;
+}
+.contact1{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact2{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.contact1 img{
+    width: 20px;
+    height: 20px;
+    background-color: #003399;
+    color: #ffff;
+    margin-right: 10px;
+}
+.contact2 img{
+    width: 20px;
+    width: 20px;
+    background-color: #003399;
+    fill: #ca0000;
+    margin-right: 10px;
+}
+.navbar{
+    display: flex;
+    background-color: #003399;
+}
+.navbar-nav{
+   
+}
+.nav-item a{
+    text-decoration: none;
+    color: #ffff;
+}
+.navbar-nav li{
+    justify-content: center;
+}
+.navbar-nav li a{
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+.icon-svg{
+    width: 20px;
+    height: 22px;
+    fill: #ffff;
+    margin-right: 5px;
+    padding: 2px;
+}
