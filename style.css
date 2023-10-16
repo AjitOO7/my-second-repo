@@ -101,3 +101,44 @@
     margin-left: 10px;
     align-items: center;
 }
+marquee{
+    padding: 10px;
+}
+marquee a{
+    text-decoration: none;
+    color: #29d4eb;
+}
+marquee a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.section-container{
+    background-color: #ccffcc;
+    padding: 0px 15px;
+    width: 100%;
+    height: auto;
+}
+/* .section{
+    width: 90%;
+    height: auto;
+    background-color: #ffc107;
+    display: flex;
+} */
+.section-first{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 488px;
+    height: auto;
+    margin-right: 5px;
+}
+.unver-img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-second{
+    background-color: #6c757d;
+    width: 498px;
+    height: auto;
+}
