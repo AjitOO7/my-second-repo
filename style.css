@@ -65,7 +65,7 @@
     background-color: #003399;
 }
 .navbar-nav{
-   
+   display: flex;
 }
 .nav-item a{
     text-decoration: none;
@@ -73,6 +73,11 @@
 }
 .navbar-nav li{
     justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+i{
+    margin-right: 10px;
 }
 .navbar-nav li a{
     justify-content: center;
