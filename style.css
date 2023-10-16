@@ -66,18 +66,17 @@
 }
 .navbar-nav{
    display: flex;
+   padding: 10px;
 }
+
 .nav-item a{
     text-decoration: none;
     color: #ffff;
+    padding: 10px;
 }
 .navbar-nav li{
     justify-content: center;
     list-style-type: none;
-    padding: 10px;
-}
-i{
-    margin-right: 10px;
 }
 .navbar-nav li a{
     justify-content: center;
@@ -90,4 +89,15 @@ i{
     fill: #ffff;
     margin-right: 5px;
     padding: 2px;
+}
+.nav-item a:hover{
+    color: black;
+    background-color: #ccffcc;
+}
+#menu-icon{
+    margin-right: 10px;
+}
+#menu-icon-desc{
+    margin-left: 10px;
+    align-items: center;
 }
