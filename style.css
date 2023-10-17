@@ -8,6 +8,7 @@
     background-color: #003399;
     width: 100%;
     border-bottom: 1px solid #0befff;
+    justify-content: space-between;
 }
 .logo{
     margin: 0;
@@ -28,6 +29,7 @@
 .collegName h3{
     color: #ffc107;
     margin: 10px;
+    font-weight:lighter;
 }
 .contact{
     margin: 10px;
@@ -117,9 +119,10 @@ marquee a:hover{
     padding: 0px 15px;
     max-width: 100%;
     height: auto;
+    padding-bottom: 20px;
 }
 .section{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -140,8 +143,9 @@ marquee a:hover{
     width: 50%;
     border-radius: 3px;
     overflow: hidden;
-    border: 1px solid black;
+    border: 1px solid rgb(104, 96, 96);
     align-items: right;
+    background-color: #ffffff;
 
 }
 .section-second p{
@@ -152,7 +156,6 @@ marquee a:hover{
     background-color: #6c757d;
 }
 .notice{
-    background-color: #ffff;
     margin: 0px;
     padding: 15px;
 }
@@ -161,7 +164,7 @@ marquee a:hover{
     color: black;
     background-color: white;
     font-size: 1rem;
-    border: 1px solid rgb(20, 255, 20);
+    border: 1px solid rgb(209, 216, 209);
 }
 .admission-portal{
     padding: 10px;
@@ -169,5 +172,14 @@ marquee a:hover{
     background-color: #007bff;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
 
+}
+.vr{
+    text-decoration: none;
+    color: #007bff;
+    font-weight: normal;
+}
+.vr:hover{
+    text-decoration: underline;
 }
