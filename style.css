@@ -115,21 +115,20 @@ marquee a:hover{
 .section-container{
     background-color: #ccffcc;
     padding: 0px 15px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
-/* .section{
-    width: 90%;
+.section{
+    width: 100%;
     height: auto;
-    background-color: #ffc107;
     display: flex;
-} */
+    justify-content: space-between;
+}
 .section-first{
     background-color: #ffffff;
     padding: 20px;
-    width: 488px;
+    width: 40%;
     height: auto;
-    margin-right: 5px;
 }
 .unver-img{
     width: 100%;
@@ -138,7 +137,37 @@ marquee a:hover{
     background-repeat: no-repeat;
 }
 .section-second{
+    width: 50%;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid black;
+    align-items: right;
+
+}
+.section-second p{
+    padding: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.4rem;
     background-color: #6c757d;
-    width: 498px;
-    height: auto;
+}
+.notice{
+    background-color: #ffff;
+    margin: 0px;
+    padding: 15px;
+}
+
+.notice1 p{
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    border: 1px solid rgb(20, 255, 20);
+}
+.admission-portal{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 2px;
+
 }
